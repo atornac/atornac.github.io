@@ -1,31 +1,39 @@
 <?xml version="1.0"?>
-<!--must begin with declaration of xml version-->
 
-<rootelement> <!--change text later
-root is the name of the element that will contain the rest
-of the elements in the document - any valid name is fine
-...as opposed to html where the root element is always <HTML> -->
+
+<!--Books are being donated by instructors and publishers-->
+<book_catalog>
 	
-	<nameofchildelement>contentcontent
-		
-		<childelementofchildelement>content</childelementofchildelement>
-		<anotherchildelement>content</anotherchildelement>
-	
-	</nameofchildelement>
+	<computer_science pages="155">
+		<title>Introduction to HTML</title>
+		<author>Gardner, Joseph</author>
+		<publisher>Press &#169</publisher>
+	</computer_science>	
+
+	<computer_science pages="255">
+		<title>Networking Infrastructure</title>
+		<author>Douglas, Adam; Dall, Janice</author>
+		<publisher>Cengage; &#169</publisher>
+	</computer_science>	
+
+	<computer_science pages="355">
+		<title>Soft Skills in IT</title>
+		<author>Hunter, Mark</author>
+		<publisher>Bolding Publisher &#169</publisher>
+	</computer_science>	
+
+	<computer_science pages="455">
+		<title>Network Security</title>
+		<author>Starter, Jennifer; Wrox, Yuri Adantov</author>
+		<publisher>Wrox &#169</publisher>
+	</computer_science>	
+
+	<computer_science pages="555">
+		<title>XML &amp; JSON</title>
+		<author>Bell, Stuart</author>
+		<publisher>Cengage; &#169</publisher>
+	</computer_science>	
+
+</book_catalog>
 
 
-
-</rootelement> <!--change text later-->
-
-<!-- pre defined entities - 5 special symbols
-&amp;
-&lt;
-&gt;
-&apos;
-&quot;
-
-<![CDATA[
-xml code that you want to display but dont want processed goes here
-]]>
-
--->
