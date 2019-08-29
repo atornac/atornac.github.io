@@ -1,6 +1,8 @@
 /*my css style sheet */
 
-book_catalog {
+
+book_catalog{
+	nth_child(even) {background: #CCC};
 	margin:10px;
 	background-color:lightgray;
 	display: block;
