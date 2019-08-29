@@ -1,28 +1,34 @@
-/*my css style sheet */
+/*hw2 style sheet */
 
 
 book_catalog{
-	padding: 10px;
 	background-color:lightgray;
-	display: table;	
+	width: 100%;
+	display: block;	
 }
 
-computer_science {
-	padding: 10px;
-	display: table;
+heading{
+	font-size: 30px;
+	text-align: center;
+	background-color: silver;
+	display:block;
 }
 
-title, author, publisher {display: table-row-group;}
+computer_science{
+	display: block;
+	border: 1px solid silver;
+	margin:	2px;
+}
+
+title, author, publisher {
+	display: block;
+	text-align: center;
+}
+
 
 title {
 	font-weight: bold;
+	text-align: center;
 	color: red;
 }
 
-author{
-	
-}
-
-publisher{
-	
-}
