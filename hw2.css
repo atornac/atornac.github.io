@@ -1,12 +1,12 @@
 /*my css style sheet */
 
-book_catalog {margin:0.5em; background-color: gray; display: block;}
+book_catalog {margin:10px; background-color:lightgrey; display: block;}
 
-computer_science {margin:0.5em; padding: 0.5em; background-color: gray;
+computer_science {margin:10px; padding: 10px;
 	display: block;}
 
-title { font-weight: bold; color: red; display:block}
+title { font-weight: bold; color: red; display:block;}
 
-author{display:block}
+author{display:block;}
 
-publisher{display:block}
+publisher{display:block;}
