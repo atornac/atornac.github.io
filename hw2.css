@@ -4,7 +4,7 @@
 book_catalog{
 	padding: 10px;
 	background-color:lightgray;
-	display:block;
+	display:table;
 }
 
 computer_science {
