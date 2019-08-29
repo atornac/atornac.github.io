@@ -5,6 +5,7 @@
 
 <!--Books are being donated by instructors and publishers.-->
 <book_catalog>
+	<heading>Welcome to our book catalog!</heading>
 	<computer_science pages="155">
 		<title>Introduction to HTML</title>
 		<author>Gardner, Joseph</author>
