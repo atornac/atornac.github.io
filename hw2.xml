@@ -5,7 +5,6 @@
 
 <!--Books are being donated by instructors and publishers.-->
 <book_catalog>
-	
 	<computer_science pages="155">
 		<title>Introduction to HTML</title>
 		<author>Gardner, Joseph</author>
@@ -35,7 +34,6 @@
 		<author>Bell, Stuart</author>
 		<publisher>Cengage;&#169;</publisher>
 	</computer_science>	
-
 </book_catalog>
 
 
