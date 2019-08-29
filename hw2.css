@@ -5,7 +5,7 @@ book_catalog{
 	background-color:lightgray;
 	width: 80%;
 	display: block;
-	margin: auto;	
+	margin: auto; /*use to horizontally center block element; requires width*/	
 }
 
 heading{
@@ -19,6 +19,12 @@ computer_science{
 	display: block;
 	border: 1px solid silver;
 	margin:	2px;
+}
+
+/*Selector matches every element that is the nth child of its parent.
+In this case, matching every odd element within computer science block*/
+computer_science:nth-of-type(odd) {
+	background: lightblue;
 }
 
 title, author, publisher {
