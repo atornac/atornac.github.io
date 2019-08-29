@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8?>
 
 <!--Simple XML file with no CSS-->
 <?xml-stylesheet type="text/css" href="hw2.css"?>
@@ -35,6 +35,5 @@
 		<publisher>Cengage;&#169;</publisher>
 	</computer_science>	
 </book_catalog>
-
 
 
