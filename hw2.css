@@ -5,8 +5,8 @@ book_catalog {margin:0.5em; background-color: gray; display: block;}
 computer_science {margin:0.5em; padding: 0.5em; background-color: gray;
 	display: block;}
 
-title { font-weight: bold; color: red}
+title { font-weight: bold; color: red; display:block}
 
-author{}
+author{display:block}
 
-publisher{}
+publisher{display:block}
