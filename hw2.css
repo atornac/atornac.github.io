@@ -2,27 +2,27 @@
 
 
 book_catalog{
-	nth_child(even) {background: #CCC};
-	margin:10px;
+	padding: 10px;
 	background-color:lightgray;
-	display: block;
+	display:block;
 }
 
 computer_science {
-	margin:10px;
 	padding: 10px;
-	display: block;
+	display:block;
 }
+
+title, author, publisher {display: block;}
 
 title {
 	font-weight: bold;
 	color: red;
-	display:block;}
+}
 
 author{
-	display:block;
+	
 }
 
 publisher{
-	display:block;
+	
 }
