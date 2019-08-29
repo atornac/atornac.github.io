@@ -3,15 +3,16 @@
 
 book_catalog{
 	padding: 10px;
-	background-color:lightgray;	
+	background-color:lightgray;
+	display: table;	
 }
 
 computer_science {
 	padding: 10px;
-	display:table;
+	display: table;
 }
 
-title, author, publisher {display: table-row;}
+title, author, publisher {display: table-row-group;}
 
 title {
 	font-weight: bold;
