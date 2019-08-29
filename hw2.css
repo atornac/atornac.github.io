@@ -1,7 +1,12 @@
 /*my css style sheet */
 
-book_catalog {margin:0.5em; display: block;}
-computer_science {margin:0.5em; padding: 0.5em; display: block;}
+book_catalog {margin:0.5em; background-color: gray; display: block;}
+
+computer_science {margin:0.5em; padding: 0.5em; background-color: gray;
+	display: block;}
+
 title { font-weight: bold; color: red}
+
 author{}
+
 publisher{}
