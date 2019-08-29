@@ -1,14 +1,10 @@
 <style type = "text/css">
 
-book_catalog{
-	color: black;
-	background-color: gray; 
-}
+book_catalog{ font-family: serif;
+	background: gray; color:003; }
 
-computer_science{
-	color: black;
-	background-color: green;
-}
+title{ font-weight: bold;
+		color: red;}
 
 
 
