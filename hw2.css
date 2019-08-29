@@ -1,6 +1,7 @@
-body{background-color: gray}
+/*my css style sheet */
 
-title{ font-weight: bold;
-		color: red}
-
-
+book_catalog {display: block;}
+computer_science {display: block;}
+title { font-weight: bold; color: red}
+author{}
+publisher{}
