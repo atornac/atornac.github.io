@@ -3,8 +3,9 @@
 
 book_catalog{
 	background-color:lightgray;
-	width: 100%;
-	display: block;	
+	width: 80%;
+	display: block;
+	margin: auto;	
 }
 
 heading{
