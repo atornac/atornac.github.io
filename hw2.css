@@ -1,7 +1,7 @@
 /*my css style sheet */
 
-book_catalog {display: block;}
-computer_science {display: block;}
+book_catalog {display: block}
+computer_science {display: block; background-color: gray}
 title { font-weight: bold; color: red}
 author{}
 publisher{}
