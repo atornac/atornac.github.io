@@ -3,11 +3,6 @@
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<style>
-	tr, th, td {padding: 5px; border 1px solid black;}
-
-</style>
-
 
 <xsl:template match="/">
 	<html>
