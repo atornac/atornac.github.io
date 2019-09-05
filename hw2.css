@@ -29,12 +29,10 @@ computer_science:nth-of-type(odd) {
 
 title, author, publisher {
 	display: block;
-	<!-- text-align: center; -->
 }
 
 
 title {
 	font-weight: bold;
-	<!-- text-align: center;-->
 	color: red;
 }
