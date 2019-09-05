@@ -17,12 +17,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			<th>Email</th>
 			<th>Account Total</th>
 		</tr>
-		<xsl:for-each select="Accounts">
+		<xsl:for-each select="Accounts/Client">
 		<tr>
-			<td><xsl:value-of select="Client/Name"/></td>
-			<td><xsl:value-of select="Client/Phone"/></td>
-			<td><xsl:value-of select="Clien/E-mail"/></td>
-			<td><xsl:value-of select="Client/Account_Total"/></td>
+			<td><xsl:value-of select="Name"/></td>
+			<td><xsl:value-of select="Phone"/></td>
+			<td><xsl:value-of select="E-mail"/></td>
+			<td><xsl:value-of select="Account_Total"/></td>
 		</tr>
 		<xsl:for-each>
 	
