@@ -5,7 +5,7 @@ book_catalog{
 	background-color:lightgray;
 	width: 80%;
 	display: block;
-	margin: auto; /*use to horizontally center block element; requires width*/	
+	margin: auto; /*use to horizontally center block element; requires width*/
 }
 
 heading{
@@ -29,13 +29,12 @@ computer_science:nth-of-type(odd) {
 
 title, author, publisher {
 	display: block;
-	text-align: center;
+	<!-- text-align: center; -->
 }
 
 
 title {
 	font-weight: bold;
-	text-align: center;
+	<!-- text-align: center;-->
 	color: red;
 }
-
