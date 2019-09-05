@@ -5,9 +5,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:output method="html"/>
 
-<xsl:template match="/"/>
+<xsl:template match="/">
 
-	<html>
+<html>
 	<body>
 	<h1>List of Clients</h1>
 	<table>
@@ -24,11 +24,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			<td><xsl:value-of select="E-mail"/></td>
 			<td><xsl:value-of select="Account_Total"/></td>
 		</tr>
-		<xsl:for-each>
-	
+		</xsl:for-each>
 	</table>
 	</body>
-	</html>
+</html>
 
 
 </xsl:template>
