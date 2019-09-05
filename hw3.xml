@@ -1,5 +1,9 @@
 <?xml version="1.0" ?>
-<!-- Simple XML file with no CSS -->
+
+
+<?xml-stylesheet type="text/xsl" href="hw3.xsl"?>
+<!-- the above links xml to xsl style sheet -->
+
 
 <Accounts>
 
