@@ -3,11 +3,14 @@
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+<style>
+	tr, th, td {padding: 5px; border 1px solid black;}
+
+</style>
 
 
 <xsl:template match="/">
-
-<html>
+	<html>
 	<body>
 	<h1>List of Clients</h1>
 	<table>
@@ -17,7 +20,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			<th>Email</th>
 			<th>Account Total</th>
 		</tr>
-		<xsl:for-each select="Accounts">
+		<xsl:for-each select="Accounts/Client">
 		<tr>
 			<td><xsl:value-of select="Name"/></td>
 			<td><xsl:value-of select="Phone"/></td>
