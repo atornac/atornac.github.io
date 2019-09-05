@@ -17,7 +17,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			<th>Email</th>
 			<th>Account Total</th>
 		</tr>
-		<xsl:for-each select="Account/Client">
+		<xsl:for-each select="Accounts/Client">
 		<tr>
 			<td><xsl:value-of select="Name"/></td>
 			<td><xsl:value-of select="Phone"/></td>
