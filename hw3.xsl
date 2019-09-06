@@ -35,9 +35,8 @@
 			<td><xsl:value-of select="Name"/></td>
 			<td><xsl:value-of select="Phone"/></td>
 			<td><xsl:value-of select="E-mail"/></td>
-			<td><xsl:value-of select="Account_Total"/></td>
 			
-		<!--	<xsl:choose>
+			<xsl:choose>
       		<xsl:when test="Account_Total &lt;= &#36;'80000'">
          		<td class="boldredrt">
          		<xsl:value-of select="Account_Total"/>
@@ -49,7 +48,6 @@
 				</td>
 			</xsl:otherwise>
       		</xsl:choose>
-		-->
 		
 		</tr>
 		</xsl:for-each>
