@@ -5,10 +5,12 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="/">
 	<html>
+	<head>
 	<style>
   		table, tr, th, td {border: 1px double black;}
   		.bgred { background-color: red; color: white; }
 	</style>
+	</head>
 	<body>
 	<h1>List of Clients</h1>
 	<table>
