@@ -10,6 +10,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   		table, tr, th, td {border: 1px double black;}
   		.boldredrt {font-weight: bold; color: red;
   					text-align: right;}
+  		.rj {text-align: right;}
 	</style>
 	</head>
 	<body>
@@ -33,7 +34,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
          		</td>
       		</xsl:when>
       		<xsl:otherwise>
-				<td><xsl:value-of select="Account_Total"/></td>
+				<td class="rj">
+					<xsl:value-of select="Account_Total"/>
+				</td>
 			</xsl:otherwise>
       		</xsl:choose>
 		</tr>
