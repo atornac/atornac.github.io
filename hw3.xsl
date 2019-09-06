@@ -8,7 +8,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<head>
 	<style>
   		table, tr, th, td {border: 1px double black;}
-  		.boldred {font-weight: bold; color: red;}
+  		.boldredrt {font-weight: bold; color: red;
+  					text-align: right;}
 	</style>
 	</head>
 	<body>
@@ -27,7 +28,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 			<td><xsl:value-of select="E-mail"/></td>
 			<xsl:choose>
       		<xsl:when test="Account_Total &lt;= 80000">
-         		<td class="boldred">
+         		<td class="boldredrt">
          		<xsl:value-of select="Account_Total"/>
          		</td>
       		</xsl:when>
