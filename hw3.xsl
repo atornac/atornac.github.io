@@ -7,6 +7,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="/">
 	<html>
+	<style>
+  		table, th, td { border: 1px double black; }
+	</style>
 	<body>
 	<h1>List of Clients</h1>
 	<table>
