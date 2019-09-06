@@ -7,7 +7,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<html>
 	<head>
 	<style>
-  		table, tr, td {border: 2px solid black;}
+  		table, tr, td {border: 2px solid blue;}
   		
   		.boldredrt 
   				{
