@@ -37,7 +37,7 @@
 			<td><xsl:value-of select="E-mail"/></td>
 			
 			<xsl:choose>
-      		<xsl:when test="Account_Total&lt;=<![CDATA[&#0036;]]'80000'">
+      		<xsl:when test="Account_Total &lt;= <![CDATA[&#0036;]]'80000'">
          		<td class="boldredrt">
          		<xsl:value-of select="Account_Total"/>
          		</td>
