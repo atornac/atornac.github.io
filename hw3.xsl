@@ -4,10 +4,13 @@
 
 <xsl:output method="html"/>
 
-<xsl:template match="/">
+<!-- begin root template -->
+<xsl:template match="/"> 
 	<html>
 	<head>
-	<style>
+	<meta charset="UTF-8">
+	<title>List of Clients</title>
+	<style type = "text/css">
   		table, tr, td {border: 2px solid blue;}
   		
   		.boldredrt 
@@ -56,6 +59,6 @@
 </html>
 
 
-</xsl:template>
+</xsl:template> <!--closing bracket of root template-->
 
 </xsl:stylesheet>
