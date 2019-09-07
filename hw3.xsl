@@ -8,7 +8,6 @@
 <xsl:template match="/"> 
 	<html>
 	<head>
-	<meta charset="UTF-8">
 	<title>List of Clients</title>
 	<style type = "text/css">
   		table, tr, td {border: 2px solid blue;}
@@ -24,6 +23,7 @@
   		
 	</style>
 	</head>
+	
 	<body>
 	<h1>List of Clients</h1>
 	<table>
