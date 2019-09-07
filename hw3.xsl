@@ -40,16 +40,16 @@
 			<td><xsl:value-of select="E-mail"/></td>
 			
 			<xsl:choose>
-      		<xsl:when test="Account_Total &lt;='&#0036;80000'">
-         		<td class="boldredrt">
-         		<xsl:value-of select="Account_Total"/>
-         		</td>
-      		</xsl:when>
-      		<xsl:otherwise>
-				<td class="rj">
+      			<xsl:when test=("Account_Total &lt;='80000'">
+         			<td class="boldredrt">
+         			<xsl:value-of select="Account_Total"/>
+         			</td>
+      			</xsl:when>
+      			<xsl:otherwise>
+					<td class="rj">
 					<xsl:value-of select="Account_Total"/>
-				</td>
-			</xsl:otherwise>
+					</td>
+				</xsl:otherwise>
       		</xsl:choose>
 		
 		</tr>
