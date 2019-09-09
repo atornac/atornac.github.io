@@ -41,12 +41,12 @@
 			<xsl:choose>
                 <xsl:when test = "translate(Account_Total,'$','') &lt;= 80000">
                     <td class="boldredrt">
-                    <xsl:value-of select="translate(Account_Total,'$','')"/>
+                    <xsl:value-of select="Account_Total"/>
                     </td>       
                 </xsl:when>          
                 <xsl:otherwise>
                     <td class="rj">
-                    <xsl:value-of select="translate(Account_Total,'$','')"/>
+                    <xsl:value-of select="Account_Total"/>
                     </td>
                 </xsl:otherwise>
             </xsl:choose>
