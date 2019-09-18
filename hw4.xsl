@@ -6,7 +6,7 @@
 
 <!-- begin root template -->
 <xsl:template match="/"> 
-	<html>
+<html>
 	<head>
 	<title>ABC Financial Startup</title>
 	</head>
