@@ -39,7 +39,7 @@
 				</xsl:when>
 				<xsl:otherwise>
 					<xsl:value-of select="concat(First,' ')"/>
-				<xsl:value-of select="Last"/>,
+					<xsl:value-of select="Last"/>,
 				</xsl:otherwise>
 			</xsl:choose>
 		</xsl:for-each>
