@@ -8,15 +8,15 @@
 <xsl:template match="/"> 
 <html>
 	<head>
-		<title>ABC Financial Startup</title>
-		<style type = "text/css">
-			.center {
-  				display: block;
-  				margin-left: auto;
-  				margin-right: auto;
-  				width: 50%;
-				}	
-		</style>
+	<title>ABC Financial Startup</title>
+	<style type = "text/css">
+		.center {
+  			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 50%;
+			}	
+	</style>
 	</head>
 	
 	<body>
