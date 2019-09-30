@@ -8,14 +8,22 @@
 <xsl:template match="/"> 
 <html>
 	<head>
-	<title>ABC Financial Startup</title>
+		<title>ABC Financial Startup</title>
+		<style type = "text/css">
+			.center {
+  				display: block;
+  				margin-left: auto;
+  				margin-right: auto;
+  				width: 50%;
+				}	
+		</style>
 	</head>
 	
 	<body>
 	<h1>ABC Financial Startup</h1>
 	
-	<p align="center"> 
-	<img src="financialstartup.jpg" width="120" height="171" />
+	<p> 
+	<img src="financialstartup.jpg" width="120" height="171" class="center" />
 	</p>
 	
 	<p>
