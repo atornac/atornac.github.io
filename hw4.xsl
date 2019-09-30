@@ -23,7 +23,7 @@
 	<h1>ABC Financial Startup</h1>
 	
 	<p> 
-	<img src="financialstartup.jpg" width="120" height="171" class="center" />
+	<img src="financialstartup.jpg" width="60" height="85" class="center" />
 	</p>
 	
 	<p>
