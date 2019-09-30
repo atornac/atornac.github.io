@@ -14,7 +14,7 @@
   			display: block;
   			margin-left: auto;
   			margin-right: auto;
-  			width: 50%;
+  			width: 25%;
 			}	
 	</style>
 	</head>
