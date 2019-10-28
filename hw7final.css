@@ -15,11 +15,11 @@ state{
 	
 name, capital{
 	background-color: CornflowerBlue;
-	display: block;
+	display: inline-block;
 }
 
 east|state{
-	display: block;
+	display: inline-block;
 	border:1px solid Silver;
 }
 	
