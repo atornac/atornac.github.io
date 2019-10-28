@@ -1,6 +1,8 @@
-/*hw7final style sheet */
+@namespace "http://www.gov.org/west"
+@namespace east "http://www.gov.org/east"	
 
-
+	
+	
 states{
 	background_color: lightgray;
 	width: 80%
@@ -13,7 +15,7 @@ state, name, capital{
 	background: ligthblue;
 }
 
-east:state, east:name, east:capital{
+east|state, east|name, east|capital{
 	display: block;
 	background: silver;
 }
