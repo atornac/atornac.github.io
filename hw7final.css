@@ -19,13 +19,13 @@ name, capital{
 }
 
 east|state{
-	display: inline-block;
+	display: block;
 	border:1px solid Silver;
 }
 	
 east|name, east|capital{
 	background-color: GoldenRod;
-	display: block;
+	display: inline-block;
 }
 
 
