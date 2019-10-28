@@ -1,0 +1,22 @@
+/*hw7final style sheet */
+
+
+states{
+	background_color: lightgray;
+	width: 80%
+	display: block;
+	margin: auto;
+}
+
+state, name, capital{
+	display: block;
+	background: ligthblue;
+}
+
+east:state, east:name, east:capital{
+	display: block;
+	background: silver;
+}
+
+
+
