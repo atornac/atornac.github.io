@@ -2,7 +2,6 @@
 @namespace east url(http://www.gov.org/east);	
 	
 states{
-	
 	width = 80%;
 	display: block;
 	margin: auto;
@@ -10,7 +9,6 @@ states{
 
 state{
 	display:block;
-	
 	border: 1px solid Silver;
 }
 	
@@ -21,7 +19,6 @@ name, capital{
 }
 
 east|state{
-	
 	display: block;
 	border:1px solid Silver;
 }
