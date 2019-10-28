@@ -3,17 +3,30 @@
 	
 states{
 	background_color: lightgray;
+	width = 80%;
 	display: block;
 	margin: auto;
 }
 
-state, name, capital{
+state{
+	display:block;
+	background_color: lightgray;
+	border: 1px solid silver;
+}
+	
+	
+name, capital{
 	background: ligthblue;
 	display: block;
-	
 }
 
-east|state, east|name, east|capital{
+east|state{
+	background: silver;
+	display: block;
+	border:1px solid lightgray;
+}
+	
+east|name, east|capital{
 	background: silver;
 	display: block;
 }
