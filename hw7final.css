@@ -2,7 +2,7 @@
 @namespace east url(http://www.gov.org/east);	
 	
 states{
-	background_color: lightgray;
+	background-color: lightgray;
 	width = 80%;
 	display: block;
 	margin: auto;
@@ -10,24 +10,24 @@ states{
 
 state{
 	display:block;
-	background_color: lightgray;
+	background-color: lightgray;
 	border: 1px solid silver;
 }
 	
 	
 name, capital{
-	background: ligthblue;
+	background-color: ligthblue;
 	display: block;
 }
 
 east|state{
-	background: silver;
+	background-color: silver;
 	display: block;
 	border:1px solid lightgray;
 }
 	
 east|name, east|capital{
-	background: silver;
+	background-color: silver;
 	display: block;
 }
 
