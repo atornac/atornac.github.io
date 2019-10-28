@@ -11,23 +11,23 @@ states{
 state{
 	display:block;
 	
-	border: 1px solid silver;
+	border: 1px solid Silver;
 }
 	
 	
 name, capital{
-	background-color: blue;
+	background-color: CornflowerBlue;
 	display: block;
 }
 
 east|state{
 	
 	display: block;
-	border:1px solid lightgray;
+	border:1px solid Silver;
 }
 	
 east|name, east|capital{
-	background-color: silver;
+	background-color: GoldenRod;
 	display: block;
 }
 
