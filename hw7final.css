@@ -3,14 +3,19 @@
 	
 states{
 	background_color: lightgray;
+	display: block;
+	margin: auto;
 }
 
 state, name, capital{
 	background: ligthblue;
+	display: block;
+	
 }
 
 east|state, east|name, east|capital{
 	background: silver;
+	display: block;
 }
 
 
