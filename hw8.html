@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset = "UTF-8">
+<title>Homework 8 </title>
+	
+	<!-- start of css style info -->
+	<style type = "text/css">
+		h4{ 
+		margin: 5px;
+		}
+		
+		p{
+		margin: 15px;
+		}
+	</style>
+	<!-- end of css style info -->
+
+</head>
+
+
+
+<body>
+
+<h2>What is the difference between XSLT 1.0 and XSLT 2.0?</h2>
+	<h4>Simplified stylesheets</h4>
+	<p>
+	2.0 allows for simplified stylesheets for cases where stylesheets
+	only have one template rule for the root node: one can combine content
+	from xsl:stylesheet and xsl:template elements into the opening html tag.
+	This eliminates the xsl: stylesheet/template/output elements.
+	</p>
+	
+	<h4>Multiple output documents</h4>
+	<p>
+	2.0 allows for multiple output documents per processor run.
+	</p>
+	
+	<h4>User defined functions</h4>
+	<p>
+	2.0 allows for creating and calling user defined functions.
+	</p>
+
+	<h4>Grouping</h4>
+	<p>
+	2.0 has improved grouping functionality supported by built-in functions.
+	</p>
+	
+	<h4>Validating output</h4>
+	<p>
+	2.0 has the ability to validate the output of an XSLT transformation against
+	an XML schema.
+	</p>
+
+
+
+<h2>What is the difference between XPath 1.0 and XPath 2.0?</h2>
+	<h4>Data model</h4>
+	<p>
+	1.0 works on node sets.  2.0 is based on sequences: nodes and/or values.
+	Sequences also allow for duplicate values.
+	</p>
+	
+	<h4>Strongly-typed</h4>
+	<p>
+	2.0 is strongly typed: "use of values is strictly dependent on each
+	values type" and supports XML schema.
+	Additional functions avg(), min() and max().
+	</p>
+	
+	<h4>Additional functions</h4>
+	<p>
+	avg(), min(), max(), upper-case(), lower-case(), exists(), distinct-values(),
+	current-date(), current-time, current-dateTime(), unparsed-text(href),
+	tokenize(input, regex_pattern), replace(input, regex_pattern, replace),
+	match(input, regex_pattern), analyze-string()
+	</p>
+	
+	<h4>Testing, Quantifying and Looping</h4>
+	<p>
+	2.0 allows for testing of conditions within the XPath expression; 
+	evaluating for boolean and use of if-then-else as opposed to xsl:choose.
+	Also allows for looping over sequences: similar to xsl:for-each.
+	</p>
+
+<h2>From the hw8.xml file, which books are $30.00 or less?</h2>
+	<p>There are two books below the price threshold: 
+	(1) Harry Potter; (2) The Snowy Days.
+	
+<a href = "hw8.xq" Link to XQuery><h2>Link to XQuery</h2></a>
+
+
+</body>
+</html>
