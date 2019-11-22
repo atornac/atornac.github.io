@@ -18,6 +18,6 @@ stroke-width="2px" />
 </defs>
 
 <ellipse cx="100" cy="250" rx="80px" ry="30px" fill="url(#LGx)" />
-<text x=" 100" y="210" fill="black">Ellipse with gradient</text>
+<text x="100" y="210" fill="black">Ellipse with gradient</text>
 
 </svg>
