@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg"
+width="300px" height="300px" viewbox="0,0,300,300">
+
+<rect x="20" y="25" fill="yellow" stroke="blue" stroke-width="2px" 
+width="160px" height="80px" />
+<text x="20" y="15" fill="black">Yellow rectangle with blue border</text>
+
+<circle fill="blue" cx="50" cy="160" r="44px" stroke="red"
+stroke-width="2px" />
+<text x="100" y="140" fill="black">Blue circle with red border</text>
+
+<defs>
+	<linearGradient id="LGx">
+		<stop offset = "0%" stop-color = "yellow" />
+		<stop offset = "100%" stop-color = "blue" />
+	</linearGradient>
+</defs>
+
+<ellipse cx="100" cy="250" rx="80px" ry="30px" fill="url(#LGx)" />
+<text x=" 100" y="210" fill="black">Ellipse with gradient</text>
+
+</svg>
